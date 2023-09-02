@@ -2,51 +2,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  color: #3a3a3a;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
-    background-color: white;
-    padding: 0 1rem;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-
+  background-color: white;
+  padding: 0 1rem;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
 }
+
 header a {
   text-decoration: none;
   color: inherit;
 }
+
 h1 {
   font-family: 'Oswald', sans-serif;
   text-transform: Uppercase;
+  letter-spacing: 2px;
   color: #3a3a3a;
 }
+
 h1 {
   font-family: 'Black+Ops+One';
 }
+
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
   list-style-type: none;
 }
-#menu > li {
+
+#menu>li {
   margin-bottom: 1em;
 }
-. active{
+
+.active {
+  /*Higlights the active menu*/
   border-bottom: 1px solid #3a3a3a;
 }
+
+/*Navigation style with dropdown*/
+nav {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+}
+
+/*Styling main*/
 main {
   flex: 1 0 auto;
   background-color: orange;
