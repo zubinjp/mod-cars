@@ -57,7 +57,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: rgba(243, 174, 45, 0.8);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -70,6 +70,7 @@ nav {
 #nav-toggle:checked~nav {
 
     display: block;
+
 }
 
 #nav-toggle {
@@ -164,7 +165,7 @@ img {
 /* Caption text */
 .text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 30px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
