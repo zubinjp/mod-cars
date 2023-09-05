@@ -21,7 +21,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 80;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -355,6 +355,7 @@ hr {
 
 }
 
+/*Special request page*/
 input[type=text],
 select,
 textarea {
@@ -387,4 +388,31 @@ input[type=submit]:hover {
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+/*Middle cart page*/
+
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 90;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
