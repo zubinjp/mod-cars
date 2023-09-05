@@ -117,6 +117,12 @@ nav {
         margin: 0 0.5rem;
     }
 
+    .carimage {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
     #reason1,
     #reason2 {
         display: flex;
@@ -221,6 +227,12 @@ img {
 @media only screen and (max-width: 300px) {
     .text {
         font-size: 11px
+    }
+
+    .carimage {
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -392,7 +404,6 @@ input[type=submit]:hover {
 
 /*Middle cart page*/
 
-
 #overlay {
     position: fixed;
     display: none;
@@ -403,16 +414,26 @@ input[type=submit]:hover {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 90;
+    z-index: 2;
     cursor: pointer;
 }
 
-#text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+#cart-sect {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+#cart-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cart-list>li {
+    object-fit: fill;
+    border: 10px solid black;
 }
