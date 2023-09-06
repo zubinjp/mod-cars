@@ -418,6 +418,12 @@ input[type=submit]:hover {
     cursor: pointer;
 }
 
+#overlay>h2 {
+
+    color: red;
+    align-content: center;
+}
+
 #cart-sect {
     display: flex;
     flex-direction: column;
@@ -437,3 +443,6 @@ input[type=submit]:hover {
     object-fit: fill;
     border: 10px solid black;
 }
+
+
+
