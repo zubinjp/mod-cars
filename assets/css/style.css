@@ -144,6 +144,8 @@ nav {
 
 
 
+
+
 }
 
 
@@ -324,6 +326,13 @@ hr {
     border: 10px solid black;
   }
 
+  #cardetail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #D2691E;
+  }
+
 
 }
 
@@ -377,6 +386,54 @@ hr {
     align-self: flex-end;
   }
 
+  /*Overlay listing*/
+  #overlay>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 90%;
+  }
+
+  .ovrlycont1 {
+    padding: 10px;
+    border: 10px solid #e0b20b;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: auto;
+    align-items: flex-start;
+
+  }
+
+  .ovrlycont2 {
+    padding: 10px;
+    border: 10px solid #e0b20b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  #carimg {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+
+  }
+
+  #cartltcontact {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border: 10px solid black;
+    padding: 0px;
+  }
+
 }
 
 /*Special request page*/
@@ -416,26 +473,6 @@ input[type=submit]:hover {
 
 /*Middle cart page*/
 
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 90;
-  cursor: pointer;
-  flex-direction: row;
-}
-
-#overlay>h2 {
-
-  color: red;
-  align-content: center;
-}
 
 #cart-sect {
 
@@ -455,23 +492,50 @@ input[type=submit]:hover {
   border: 10px solid black;
 }
 
+#imgcart {
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+/*Overlay*/
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+
 #cardetail {
   background-color: #D2691E;
+  display: flex;
+  flex-direction: row;
 }
 
 #overlay>div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .ovrlycont1 {
   padding: 10px;
+  border: 10px solid #e0b20b;
+  box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
-  width: 40%;
+  width: 100%;
   height: auto;
   align-items: flex-start;
 
@@ -479,16 +543,27 @@ input[type=submit]:hover {
 
 .ovrlycont2 {
   padding: 10px;
+  border: 10px solid #e0b20b;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
-  width: 40%;
+  width: 100%;
   height: auto;
   align-items: flex-end;
 }
 
-#imgcart {
+#carimg {
+  object-fit: contain;
   width: 100%;
   height: auto;
+
+}
+
+#cartltcontact {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
   align-items: center;
+  border: 10px solid black;
+  padding: 0px;
 }
