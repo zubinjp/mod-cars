@@ -17,3 +17,8 @@ function showSlides() {
     dots[slideIndex - 1].className += " active1";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+function redirect() {
+     document.getElementById("").style.display = "block";
+
+}

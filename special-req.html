@@ -2,93 +2,99 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/081e71c64b.js" crossorigin="anonymous"></script>
-    <!--Title-->
-    <title>Drive Your Beast</title>
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/081e71c64b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Grenze+Gotisch:wght@100&display=swap"
+    rel="stylesheet">
+  <!--Title-->
+  <title>Drive Your Beast</title>
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!--Header-->
-    <header>
-        <a href="index.html">
-            <h1 id="logo">Drive Your Beast</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="your-cart.html"> In Stock </a></li>
-                <li><a href="special-req.html" class="active"> Special Request </a></li>
-                </li>
-            </ul>
-        </nav>
-    </header>
+  <!--Header-->
+  <header>
+    <a id="logot" href="index.html">
+      <a id="logoimg"><img src="assets/favicon/android-chrome-192x192.png" alt="car image" style="width:100%"></a>
+      <h1 id="logo">Drive Your Beast</h1>
 
-    <main>
-        <div>
-            <br><br><br><br><br>
-            <div class="container1">
-                <form action="/action_page.php">
-                    <label for="fname"><strong> First Name : </strong></label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <br>
-                    <label for="lname"><strong> Last Name : </strong></label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <br>
-                    <label for="email"><strong> E-Mail : </strong></label>
-                    <input type="text" id="email" name="e-mail" placeholder="e.g.abec@gmail.com">
-                    <br>
-                    <label for="continent"><strong> Region : </strong></label>
-                    <select id="continent" name="continent">
-                        <option value="africa">Africa</option>
-                        <option value="asia">Asia</option>
-                        <option value="australia">Australia</option>
-                        <option value="europe">Europe</option>
-                        <option value="north*america">North America</option>
-                        <option value="south-america">South America</option>
-                        
-                    </select>
-                    <br>
-                    <label for="subject"><strong> Special Request Details : </strong></label>
-                    <br>
-                    <textarea id="subject" name="subject" placeholder="Please describe your request.." style="height:200px"></textarea>
-                    <br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>        
-    </main>
+    </a>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="your-cart.html"> In Stock </a></li>
+        <li><a href="special-req.html" class="active"> Special Request </a></li>
 
-    <footer>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      
+      <div class="container1">
+        <form action="/action_page.php">
+          <label for="fname"><strong> First Name : </strong></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <br>
+          <label for="lname"><strong> Last Name : </strong></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <br>
+          <label for="email"><strong> E-Mail : </strong></label>
+          <input type="text" id="email" name="e-mail" placeholder="e.g.abec@gmail.com">
+          <br>
+          <label for="continent"><strong> Region : </strong></label>
+          <select id="continent" name="continent">
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="australia">Australia</option>
+            <option value="europe">Europe</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+
+          </select>
+          <br>
+          <label for="subject"><strong> Special Request Details : </strong></label>
+          <br>
+          <textarea id="subject" name="subject" placeholder="Please describe your request.."
+            style="height:200px"></textarea>
+          <br>
+          <input type="submit" value="Submit" formaction="index.html">
+        </form>
+      </div>
+  </main>
+
+  <footer>
+    <ul id="social-networks">
+      <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 

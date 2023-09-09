@@ -1,5 +1,7 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Grenze+Gotisch:wght@200;300;400;500;600,700&display=swap');
+
 
 * {
   padding: 0;
@@ -14,7 +16,7 @@ body {
 
   color: #3a3a3a;
 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Grenze Gotisch', cursive;
 }
 
 header {
@@ -34,11 +36,23 @@ header a {
   color: inherit;
 }
 
-h1 {
-  font-family: 'Black-Ops-One';
-  text-transform: Uppercase;
-  letter-spacing: 2px;
-  color: #3a3a3a;
+h2 {
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 20%;
+}
+
+
+
+#logot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#logoimg {
+  left: 0px;
+  align-items: flex-start;
+  max-width: 20%;
 }
 
 #menu {
@@ -49,7 +63,8 @@ h1 {
 
 #menu li {
   margin-bottom: 1em;
-  font-family: 'Black-Ops*One';
+  font-family: 'Grenze Gotisch', cursive;
+  font-weight: bold;
 }
 
 .active {
@@ -82,6 +97,19 @@ nav {
 @media screen and (min-width: 768px) {
 
   /*Header*/
+  #logo {
+    font-family: 'Grenze Gotisch', cursive;
+    text-transform: Uppercase;
+    letter-spacing: 2px;
+    color: orange;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+    font-size: 300%;
+
+    margin: 0 0.5rem;
+
+
+  }
+
   nav {
     display: block;
     position: relative;
@@ -111,11 +139,7 @@ nav {
     display: none;
   }
 
-  #logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-  }
+
 
   .carimage {
     display: block;
@@ -134,7 +158,7 @@ nav {
   #reason2>div {
     width: 100%;
     padding: 10px;
-    font-size: 25px;
+
   }
 
   #reason2 {
@@ -152,6 +176,7 @@ nav {
 
 /* Main content */
 main {
+  padding-top: 55px;
   flex: 1 0 auto;
   background-color: rgba(255, 166, 0, 0.774);
 
@@ -227,6 +252,15 @@ img {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+  #logo {
+    font-family: 'Grenze Gotisch', cursive;
+    text-transform: Uppercase;
+    color: orange;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+
+    margin: 0 0.5rem;
+  }
+
   .text {
     font-size: 11px
   }
@@ -305,9 +339,21 @@ hr {
 
 /* Large device (laptop and desktop) */
 @media only screen and (max-width: 992px) {
+  #logo {
+    font-family: 'Grenze Gotisch', cursive;
+    text-transform: Uppercase;
+    letter-spacing: 2px;
+    color: orange;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+    font-size: 150%;
+    line-height: 30px;
+    margin: 0 0.5rem;
+  }
+
   #menu a:hover {
     border-bottom: 3px solid #3a3a3a;
   }
+
 
   #reasons {
     width: 90%;
@@ -450,6 +496,7 @@ textarea {
   resize: vertical;
 }
 
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -457,6 +504,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Grenze Gotisch', cursive;
 }
 
 input[type=submit]:hover {
