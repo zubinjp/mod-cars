@@ -1,4 +1,4 @@
-# Love Running
+# Drive Your Beast
 
 Driver your beast is an international marketplace for classic and performance cars.
 There is an outstanding selection of cars from sellers around the world at the market. The company helps the customers in meeting special requirements and provides special discounted offer for the services. The company is based in Europe. This site is for the car lovers who seek for all kind of variant car models to sell or buy and extensive car care for their car.
@@ -17,35 +17,35 @@ The website would help the customer to buy, sell and maintaining thier vintage c
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, InStock page and Special requirement page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/menubar.png)
 
 - __The landing page image__
 
   - The landing includes a slideshow of car with text overlay to allow the user to see what belief's the company is emphasising on. 
   - This section also gives an idea of the type of cars that are in stocks.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/slideanim.png)
 
 - __Why Us? Section__
 
   - The "Why us?" section will allow the user to see the benefits of buying and selling through our platform. 
   - The user will see the value of using our platform and can also request for special requests.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Club Ethos](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/value.png)
 
 - __Regional Contact Times section__
 
   - This section will allow the user to see exactly when can they contact us depending on the region for extensive support. 
   - This section will have fixed times with specified time zone for easy contact at different continent.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/contact.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/social.png)
 
 - __In Stock__
 
@@ -53,13 +53,13 @@ The website would help the customer to buy, sell and maintaining thier vintage c
   - This section is valuable to the user as they will be able to easily look for the cars that are in stock.
   -On clicking any of the car image, there will be a overlay page with more details regarding the respective car pops-up.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SeconPC2.png)
 
 - __Sepecial request Page__
 
   - This page will allow the user to either request for a specific customized car or request for special car services. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SpecialReq.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -77,9 +77,9 @@ The website was well tested with different tools and at different resolution. Th
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmod-cars.abbey-johnsonjo.repl.co%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmod-cars.abbey-johnsonjo.repl.co%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
