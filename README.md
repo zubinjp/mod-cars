@@ -53,13 +53,13 @@ The website would help the customer to buy, sell and maintaining thier vintage c
   - This section is valuable to the user as they will be able to easily look for the cars that are in stock.
   -On clicking any of the car image, there will be a overlay page with more details regarding the respective car pops-up.
 
-![Gallery](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SeconPC2.png)
+![Gallery](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SecondPC2.png)
 
 - __Sepecial request Page__
 
   - This page will allow the user to either request for a specific customized car or request for special car services. 
 
-![Sign Up](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SpecialReq.png)
+![Sign Up](https://github.com/Abbeyjp/mod-cars/blob/main/assets/images/SpecialReqPC.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
