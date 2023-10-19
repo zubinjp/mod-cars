@@ -12,13 +12,31 @@
 .container1 {
   display: flex;
   flex-direction: column;
-  position: center;
   margin: auto;
-  width: 90%;
+  width: fit-content;
   border-radius: 10px;
   background-color: #f2f2f2;
   padding: 20px;
   margin-top: 10%;
+}
+
+#logo {
+  font-family: 'Grenze Gotisch', cursive;
+  text-transform: Uppercase;
+  letter-spacing: 1px;
+  color: orange;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px black;
+  font-size: 80%;
+
+  margin: 0 0.5rem;
+
+
+}
+
+#logoimg {
+  left: 0px;
+  align-items: flex-start;
+  max-width: 15%;
 }
 
 .container11 {
@@ -69,23 +87,15 @@ h2 {
 
 
 
-#logot {
+#logcont {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-#logoimg {
-  left: 0px;
-  align-items: flex-start;
-  max-width: 20%;
-}
 
-#menu {
-  font-size: 110%;
-  letter-spacing: 4px;
-  list-style-type: none;
-}
+
+
 
 #menu li {
   margin-bottom: 1em;
@@ -136,10 +146,21 @@ nav {
 
   }
 
+  #menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+    list-style-type: none;
+  }
+
+  #logoimg {
+    left: 0px;
+    align-items: flex-start;
+    max-width: 30%;
+  }
+
   .container1 {
     display: flex;
     flex-direction: column;
-    position: center;
     margin: auto;
     width: 90%;
     border-radius: 10px;
@@ -384,7 +405,7 @@ hr {
     letter-spacing: 2px;
     color: orange;
     text-shadow: 0 0 3px #FF0000, 0 0 5px black;
-    font-size: 150%;
+    font-size: 200%;
     line-height: 30px;
     margin: 0 0.5rem;
   }
