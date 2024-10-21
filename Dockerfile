@@ -1,15 +1,24 @@
-# Use a base image
-FROM python:3.9
+FROM python:3.9-slim
 
-# Set the working directory in the container
+# Set the working directory
 WORKDIR /app
 
-# Copy requirements.txt and install dependencies
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    libffi-dev \
+    libssl-dev \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-# Copy the rest of the application code
+# Copy requirements.txt into the container
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of your application code
 COPY . .
 
-# Command to run the app
-CMD ["python", "app.py"]
+# Command to run your application
+CMD ["python", "your_application.py"]  # Change to your main application file
