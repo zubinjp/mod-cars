@@ -1,24 +1,17 @@
-FROM python:3.9-slim
+# Use an official Python runtime as a parent image
+FROM python:3.9
 
-# Set the working directory
+# Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    libffi-dev \
-    libssl-dev \
-    python3-dev \
-    && rm -rf /var/lib/apt/lists/*
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Copy requirements.txt into the container
-COPY requirements.txt .
-
-# Install Python dependencies
+# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of your application code
-COPY . .
+# Make port 8000 available to the world outside this container
+EXPOSE 8000
 
-# Command to run your application
-CMD ["python", "your_application.py"]  # Change to your main application file
+# Run the application (adjust according to your entry point)
+CMD ["python", ".devcontainer/build-assets/http_server.py"]
